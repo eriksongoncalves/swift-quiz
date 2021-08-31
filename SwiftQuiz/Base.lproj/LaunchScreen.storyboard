@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="VZN-Bx-yzD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="VZN-Bx-yzD">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VZN-Bx-yzD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="KcO-lD-fZj"/>
+                            <constraint firstItem="VZN-Bx-yzD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jcZ-Zc-bW1"/>
+                            <constraint firstItem="VZN-Bx-yzD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="thp-4k-nux"/>
+                            <constraint firstItem="VZN-Bx-yzD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xNL-On-c4E"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
